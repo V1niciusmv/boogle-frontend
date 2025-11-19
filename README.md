@@ -24,7 +24,7 @@ This is the frontend repository for Boogle, built with [React Router](https://re
 ### Prerequisites
 
 - Node.js (v20 or later recommended)
-- Bun (v1.0 or later)
+- Bun (v1.0 or later) easy install: [Bun Official Site](https://bun.com/)
 
 ### Installation
 
