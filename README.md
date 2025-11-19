@@ -68,12 +68,12 @@ bun start
 ## 🌐 Data Sources
 
 Boogle integrates with multiple free and public-domain repositories, such as:
-- [Project Gutenberg](https://www.gutenberg.org/)
-- [Open Library](https://openlibrary.org/)
-- [Wikisource](https://wikisource.org/)
-- [Public Domain Library](https://publicdomainlibrary.org/)
-- [Internet Archive](https://archive.org/details/texts)
-- [Domínio Público (Brazil)](http://www.dominiopublico.gov.br/)
+- [x] [Project Gutenberg](https://www.gutenberg.org/)
+- [ ] [Open Library](https://openlibrary.org/)
+- [ ] [Wikisource](https://wikisource.org/)
+- [ ] [Public Domain Library](https://publicdomainlibrary.org/)
+- [ ] [Internet Archive](https://archive.org/details/texts)
+- [ ] [Domínio Público (Brazil)](http://www.dominiopublico.gov.br/)
 
 ---
 
