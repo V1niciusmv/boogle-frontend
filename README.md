@@ -1,87 +1,91 @@
-# Welcome to React Router!
+# 📚 Boogle — Open Source Search Engine for Free Books
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+**Boogle** is an open-source search engine designed to index and search books from multiple free and public-domain sources.  
+The goal is to make it easy for readers, students, and researchers to find *free and legal* books across the web —  
+without having to visit each site individually.
 
 ---
 
-Built with ❤️ using React Router.
+## Overview
+
+Most public-domain book collections (like Project Gutenberg or Open Library) provide their own search features,
+but none of them aggregate multiple sources or offer relevance ranking based on modern information retrieval techniques.
+
+**Boogle** changes that.
+It unifies data from different repositories, builds its own index,
+and returns ranked results according to query relevance — just like a miniature, open-source version of Google Books.
+
+---
+
+## 🚀 Quick Start (Frontend)
+
+This is the frontend repository for Boogle, built with [React Router](https://reactrouter.com/).
+
+### Prerequisites
+
+- Node.js (v20 or later recommended)
+- Bun (v1.0 or later)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/enrell/boogle-frontend.git
+   cd boogle-frontend
+   ```
+
+2. Install dependencies:
+   ```bash
+   bun install
+   ```
+
+### Development
+
+Run the development server:
+
+```bash
+bun run dev
+```
+
+Open your browser and visit `http://localhost:5173` (or the URL shown in the console).
+
+### Production
+
+Build the application for production:
+
+```bash
+bun run build
+```
+
+Start the production server:
+
+```bash
+bun start
+```
+
+---
+
+## 🌐 Data Sources
+
+Boogle integrates with multiple free and public-domain repositories, such as:
+- [Project Gutenberg](https://www.gutenberg.org/)
+- [Open Library](https://openlibrary.org/)
+- [Wikisource](https://wikisource.org/)
+- [Public Domain Library](https://publicdomainlibrary.org/)
+- [Internet Archive](https://archive.org/details/texts)
+- [Domínio Público (Brazil)](http://www.dominiopublico.gov.br/)
+
+---
+
+Contact: **[enrellsa10@proton.me](mailto:enrellsa10@proton.me)**
+
+---
+
+## 🪪 License
+
+This project is open-source under the **MIT License**.
+Feel free to fork, modify, and improve!
+
+---
+
+> *Boogle — Free Books. Free Knowledge.*
